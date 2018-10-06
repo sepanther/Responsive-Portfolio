@@ -216,9 +216,11 @@ input[type=submit] {
   border: 0 none;
 }
 
+
+
 @media only screen and (max-width: 980px) {
   .main-section {
-    width:70%;
+    width:700px;
     margin:0px 20px 40px;
   }
 
@@ -229,11 +231,25 @@ input[type=submit] {
   .work {
     float:left;
   }
+
+  nav {
+    margin-right:20px;
+  }
+
 }
 
 @media only screen and (max-width: 768px) {
   .main-section {
     width:auto;
+  }
+
+  #table {
+    display:table;
+  }
+
+  .work {
+    margin:10px;
+    width:230px;
   }
 }
 
@@ -244,12 +260,22 @@ input[type=submit] {
     text-align:center;
   }
 
+  #masthead {
+    position:static;
+  }
+
   .main-section {
     width:auto;
     margin:0px 20px 40px;
   }
 
+  #table {
+    align-items: center;
+    text-align:center;
+  }
+
   .work {
     margin:auto;
+    width:300px;
   }
 }
